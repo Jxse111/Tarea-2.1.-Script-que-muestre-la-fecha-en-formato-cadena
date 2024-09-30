@@ -15,7 +15,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         date_default_timezone_set('Europe/Madrid');
         setlocale(LC_TIME, 'spanish'); //Funcion que cambia el idioma a castellano
         $fecha = strftime("%A, %d de %B de %Y"); //Fecha del dia de hoy formateada
-        echo $fecha;
+        echo ucfirst($fecha);
         ?>
     </body>
 </html>
